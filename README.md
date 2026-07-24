@@ -1,94 +1,175 @@
-🛒 Flipkart Customer Service Satisfaction Prediction using Machine Learning
-📌 Project Overview
+# 🛒 Flipkart Customer Service Satisfaction Prediction using Machine Learning
 
-This project aims to predict Customer Satisfaction (CSAT Score) for Flipkart customer support interactions using Machine Learning. By analyzing customer support data, the model helps identify factors that influence customer satisfaction and assists businesses in improving their customer service quality.
+A Machine Learning project to predict **Flipkart Customer Satisfaction (CSAT Score)** using customer support interaction data. This project applies data preprocessing, exploratory data analysis (EDA), feature engineering, and classification models to analyze customer satisfaction and identify the most influential factors affecting CSAT scores.
 
-🎯 Objective
+---
 
-The main objective of this project is to build a Machine Learning model that predicts the Customer Satisfaction (CSAT Score) based on customer interaction details.
+## 📌 Project Overview
 
-📂 Dataset Information
+Customer satisfaction is one of the most important metrics for any e-commerce platform. This project predicts the **Customer Satisfaction (CSAT Score)** using customer support data collected from Flipkart.
 
-The dataset contains 85,907 customer support records with 20 features, including:
+The project includes:
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Data Visualization
+- Machine Learning Model Building
+- Hyperparameter Tuning
+- Model Evaluation
 
-Channel Name
-Category
-Sub-category
-Customer City
-Product Category
-Item Price
-Connected Handling Time
-Tenure Bucket
-Agent Shift
-CSAT Score (Target Variable)
-🛠 Technologies Used
-Python
-Google Colab
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-📊 Project Workflow
-Data Loading
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Data Visualization
-Feature Engineering
-One-Hot Encoding
-Train-Test Split
-Decision Tree Classification
-Random Forest Classification
-Hyperparameter Tuning
-Model Evaluation
-Performance Comparison
-🤖 Machine Learning Models
-Decision Tree Classifier
-Accuracy: 66.09%
-Random Forest Classifier
-Accuracy: 56.36%
-Tuned Random Forest
-Accuracy: 60.16%
-📈 Evaluation Metrics
+---
+
+## 🎯 Objective
+
+The objective of this project is to build a Machine Learning model that predicts the **Customer Satisfaction (CSAT Score)** based on customer support interactions and service-related features.
+
+---
+
+## 📂 Dataset
+
+- **Dataset:** Flipkart Customer Support Dataset
+- **Total Records:** 85,907
+- **Features:** 20
+
+### Important Features
+
+- Channel Name
+- Category
+- Sub-category
+- Customer City
+- Product Category
+- Item Price
+- Connected Handling Time
+- Tenure Bucket
+- Agent Shift
+- CSAT Score (Target Variable)
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 📊 Project Workflow
+
+1. Data Loading
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Data Visualization
+5. Feature Engineering
+6. One-Hot Encoding
+7. Train-Test Split
+8. Decision Tree Model
+9. Random Forest Model
+10. Hyperparameter Tuning
+11. Model Evaluation
+12. Performance Comparison
+
+---
+
+## 🤖 Machine Learning Models
+
+| Model | Accuracy |
+|--------|----------|
+| Decision Tree | **66.09%** |
+| Random Forest | **56.36%** |
+| Tuned Random Forest | **60.16%** |
+
+---
+
+## 📈 Evaluation Metrics
 
 The models were evaluated using:
 
-Accuracy
-Precision
-Recall
-F1-Score
-Confusion Matrix
-📉 Visualizations
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+---
+
+## 📉 Data Visualizations
 
 The project includes:
 
-CSAT Score Distribution
-Missing Value Analysis
-Correlation Heatmap
-Category-wise Analysis
-Product Category Analysis
-Feature Importance Graph
-Model Performance Comparison
-📁 Repository Structure
+- Missing Value Analysis
+- CSAT Score Distribution
+- Category-wise Analysis
+- Product Category Analysis
+- Boxplots
+- Feature Importance
+- Confusion Matrix
+- Model Performance Comparison
+
+---
+
+## 📁 Repository Structure
+
+```text
+Flipkart-Customer-Service-Satisfaction-Prediction/
+│
 ├── Flipkart.ipynb
 ├── Customer_support_data.csv
 ├── Flipkart_Presentation.pptx
 ├── README.md
-▶️ How to Run
-Clone this repository.
-Open the notebook in Google Colab or Jupyter Notebook.
-Install the required libraries.
-pip install pandas numpy matplotlib seaborn scikit-learn
-Run all notebook cells.
-📌 Key Insights
-Customer support channel and issue category significantly influence customer satisfaction.
-Proper data preprocessing improves model performance.
-The Decision Tree model achieved the highest accuracy on this dataset.
-🚀 Future Improvements
-Apply advanced ensemble methods such as XGBoost or LightGBM.
-Perform feature selection to improve prediction accuracy.
-Deploy the model using Flask or Streamlit.
-Build an interactive dashboard for real-time CSAT prediction.
+```
 
-👩‍💻 Author
-Rishika
+---
+
+## ▶️ How to Run
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/rishika01-code/Flipkart-Customer-Service-Satisfaction-Prediction.git
+```
+
+### Install Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+### Run the Notebook
+
+Open **Flipkart.ipynb** in Google Colab or Jupyter Notebook and run all cells.
+
+---
+
+## 📌 Key Insights
+
+- Customer support channel influences customer satisfaction.
+- Service category impacts CSAT scores.
+- Proper preprocessing improves model performance.
+- Decision Tree achieved the highest accuracy for this dataset.
+
+---
+
+## 🚀 Future Improvements
+
+- Implement XGBoost and LightGBM models.
+- Perform advanced feature selection.
+- Deploy the model using Streamlit or Flask.
+- Build a real-time customer satisfaction prediction dashboard.
+
+---
+
+## 👩‍💻 Author
+
+**Rishika**
+
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider **starring ⭐ this repository**.
