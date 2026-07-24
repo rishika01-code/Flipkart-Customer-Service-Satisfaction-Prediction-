@@ -170,6 +170,3 @@ Open **Flipkart.ipynb** in Google Colab or Jupyter Notebook and run all cells.
 
 ---
 
-## ⭐ Support
-
-If you found this project helpful, please consider **starring ⭐ this repository**.
