@@ -79,9 +79,9 @@ The objective of this project is to build a Machine Learning model that predicts
 
 | Model | Accuracy |
 |--------|----------|
-| Decision Tree | **66.09%** |
-| Random Forest | **56.36%** |
-| Tuned Random Forest | **60.16%** |
+| Decision Tree | **65.950053%** |
+| Random Forest | **55.742726%** |
+| Tuned Random Forest | **59.912828%** |
 
 ---
 
